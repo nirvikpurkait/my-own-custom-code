@@ -8,3 +8,4 @@ with the help ground level basic language.
 
 * HTML
 * CSS
+* JavaScript
