@@ -10,6 +10,7 @@ const textToShow =
 const secondText = document.querySelector('.second-text')
 
 secondText.textContent = textToShow[0]
+secondText.style.animation = `text 10000ms linear infinite`
 secondText.style.animationTimingFunction = `steps(${textToShow[0].length})`
 
 setInterval(showText, 10000);
